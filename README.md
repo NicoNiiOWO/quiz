@@ -16,17 +16,17 @@ Make sure to check off your items as you complete them. [ ] => [x]
 ### index.html
 - [ ] Update the HTML to reflect your three questions. Expected answers to your new questions should be placeholders in your input box.
 ### JS
-- [ ] Using conditional statements, declare a function for each of your questions that returns a number based on the user's input. 
+- [x] Using conditional statements, declare a function for each of your questions that returns a number based on the user's input. 
 ### Wrap
 - [x] Push your changes!
 
 
 ## Day 2
 ### JS
-- [ ] Use your totalScore variable to store the sum of the result of each function when the user clicks the button.
+- [x] Use your totalScore variable to store the sum of the result of each function when the user clicks the button.
 - [ ] Write a function that congratulates the user, by name, on their placement and displays the results on the webpage. For now their placement will be "TBD". 
 ### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 
 ## Day 3
@@ -37,6 +37,6 @@ Make sure to check off your items as you complete them. [ ] => [x]
 
 ## Extensions
 - [ ] Update the HTML and CSS to reflect your own style.
-- [ ] Change the theme of the quiz.
+- [x] Change the theme of the quiz.
 - [ ] Add more questions to your quiz.
 - [ ] Update the function that displays the result so it displays an image in addition to the user-specific placement details.
