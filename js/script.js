@@ -38,6 +38,19 @@ $("button").click(function() {
             return "Melee";
         }
     }
-
-    $("#result").append(result());
+    placement = result();
+    if(name != "" && placement != undefined){
+        $("#result").text("Congratulations, " + name + ". Your result is "+ placement);
+        if(placement === "N64"){
+            $("#resultimg").attr("src", "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Supersmashbox.jpg/220px-Supersmashbox.jpg");
+        }else if(placement === "Melee"){
+            $("#resultimg").attr("src", "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Super_Smash_Bros_Melee_box_art.png/220px-Super_Smash_Bros_Melee_box_art.png");
+        }else if(placement === "Brawl"){
+            $("#resultimg").attr("src", "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/SSBB_Cover.jpg/220px-SSBB_Cover.jpg");
+        }else if(placement === "Smash 4"){
+            $("#resultimg").attr("src", "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Super_Smash_Bros_for_Wii_U_Box_Art.png/220px-Super_Smash_Bros_for_Wii_U_Box_Art.png");
+        }else if(placement === "Ultimate"){
+            $("#resultimg").attr("src", "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Super_Smash_Bros._Ultimate.jpg/220px-Super_Smash_Bros._Ultimate.jpg");
+        }
+    }
 });

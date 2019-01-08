@@ -14,7 +14,7 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [x] Add, commit, and push your changes
 - [x] Make your site live on gh-pages
 ### index.html
-- [ ] Update the HTML to reflect your three questions. Expected answers to your new questions should be placeholders in your input box.
+- [x] Update the HTML to reflect your three questions. Expected answers to your new questions should be placeholders in your input box.
 ### JS
 - [x] Using conditional statements, declare a function for each of your questions that returns a number based on the user's input. 
 ### Wrap
@@ -24,19 +24,19 @@ Make sure to check off your items as you complete them. [ ] => [x]
 ## Day 2
 ### JS
 - [x] Use your totalScore variable to store the sum of the result of each function when the user clicks the button.
-- [ ] Write a function that congratulates the user, by name, on their placement and displays the results on the webpage. For now their placement will be "TBD". 
+- [x] Write a function that congratulates the user, by name, on their placement and displays the results on the webpage. For now their placement will be "TBD". 
 ### Wrap
 - [x] Push your changes!
 
 
 ## Day 3
 ### JS
-- [ ] Using the function you created to display the results and conditional statements, write a function that places the user to a tech company based on their total score.
+- [x] Using the function you created to display the results and conditional statements, write a function that places the user to a tech company based on their total score.
 ### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Extensions
-- [ ] Update the HTML and CSS to reflect your own style.
+- [x] Update the HTML and CSS to reflect your own style.
 - [x] Change the theme of the quiz.
 - [ ] Add more questions to your quiz.
 - [ ] Update the function that displays the result so it displays an image in addition to the user-specific placement details.
